@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+header {
+    height: 50px;
+    width: 1300px;
+    margin: auto;
+    background-color:lightcyan;
+}
+header h1 {
+    float: left;
+    line-height: 50px;
+}
+header h2 {
+    float: left;
+    line-height: 50px;
+}
+header ul {
+    display: flex;
+    float: right;
+    line-height: 50px;
+}
+header ul li {
+    margin: 0 10px;
+}
+div#main {
+    height: 200px;
+    width: 1200px;
+    margin: auto;
+}
+div#grid {
+    height: 400px;
+    width: 1200px;
+    margin: auto;
+}
+div#grid div {
+    height: 100px;
+    margin: 50px 0;
+}
+div#grid div span{
+    margin: 0 150px;
+}
+div#box {
+    height: 400px;
+    width: 1200px;
+    margin: auto;
+}
+div#box div {
+    height: 100px;
+    background-color: beige;
+}
+div#text {
+    height: 400px;
+    width: 1200px;
+    margin: auto;
+}
+div#text ul{
+    font-size: 30px;
+}
+div#text ul li{
+    height: 70px;
+    width: 1200px;
+    margin: auto;
+}
+div#position {
+    height: 2200px;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    font-size: 30px;
+}
+div#position div {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: beige;
+}
+
+div#position ul li {
+    height: 70px;
+    width: 1200px;
+    margin: auto;
+}
+footer {
+    height: 50px;
+    width: 1200px;
+    margin: auto;
+    background-color: lightcyan;
+}
+footer ul {
+    display: flex;
+    float: right;
+    line-height: 50px;
+}
+footer ul li {
+    margin: 0 10px;
+}
